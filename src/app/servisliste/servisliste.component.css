@@ -1,0 +1,31 @@
+.personal__avatar {
+  background: #eee;
+  padding: 11px 12px;
+  border-radius: 100px;
+}
+
+.detail__icon {
+  font-size: 24px;
+}
+
+table > tbody > tr {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.05);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.05);
+}
+
+.table td, .table th {
+  border:none!important;
+}
+
+.comment_modal_header {
+  background: #25628f;
+}
+
+.comment_modal_header > .modal-title {
+  color: #fff;
+}
+
+.comment-deactive {
+  color: #F44336;
+}

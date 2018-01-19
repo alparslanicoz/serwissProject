@@ -1,0 +1,19 @@
+.la {
+  font-size: 19px;
+}
+
+.row+.row {
+  margin-top: 10px;
+}
+
+.ks-border-danger {
+  border-color: #ef5350;
+}
+
+.modal-header {
+  background: #25628f;
+}
+
+.modal-header h5 {
+  color: #fff;
+}

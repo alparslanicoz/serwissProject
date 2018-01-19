@@ -1,0 +1,19 @@
+.la {
+  font-size: 19px;
+}
+
+.row+.row {
+  margin-top: 10px;
+}
+
+.ks-border-danger {
+  border-color: #ef5350;
+}
+
+.comment-active {
+  color: #25628f;
+}
+
+.comment-inactive {
+  color: #858585;
+}

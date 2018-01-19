@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+.card {
+  font-family: 'Open Sans', sans-serif!important;
+  border: none;
+  background: transparent!important;
+}
+
+.table-bordered tbody tr:nth-of-type(odd) {
+  position: relative;
+  bottom: 5px;
+}
+
+.card-header {
+  border: none!important;
+}
+
+.table-bordered td {
+  border: none!important;
+}
+
+.table-bordered tr {
+  background: #fff;
+}
+
+table .collapse.in {
+  display:table-row;
+}
+
+.ks-sub-background {
+  background: #f5f6fa;
+}
+
+.success {
+  background: #4caf50;
+}
+
+.success > td {
+  color: #fff;
+}
+
+.header__title {
+  color: #0275d8;
+  font-size: 24px;
+}
+.comment_active {
+  color: #0275d8;
+  font-size: 24px;
+}
+
+.service__number {
+  font-size: 14px;
+  vertical-align: middle;
+  margin-left: 15px;
+  color: #838383;
+}
+
+.new_service_add {
+  background:  #42a5f5;
+}
+
+.filter {
+  background: #d7d7d7;
+  color: #95a5a6;
+}
+
+.new_service_add, .filter {
+  border: none;
+}
+
+.card.ks-panel-table .card-block .table-bordered thead tr:last-child td, .card.ks-panel-table .card-block .table-bordered thead tr:last-child th, .card.panel-table .card-block .table-bordered thead tr:last-child td, .card.panel-table .card-block .table-bordered thead tr:last-child th {
+  border: none;
+  color: #2b2b2b;
+}
+
+.personel_avatar {
+  background: #f0f0f0;
+  padding: 13px 15px;
+  border-radius: 100px;
+  color: #555555 !important;
+  font-weight: 600;
+}

@@ -1,0 +1,16 @@
+.la {
+  font-size: 19px;
+}
+
+.row+.row {
+  margin-top: 10px;
+}
+
+.textAlign-right {
+  text-align: right;
+}
+
+.table td, .table th {
+  border: none!important;
+  padding: 10px 5px;
+}

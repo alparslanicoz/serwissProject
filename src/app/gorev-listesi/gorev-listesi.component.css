@@ -1,0 +1,41 @@
+.pd20 {
+  padding: 20px;
+}
+
+.la {
+  font-size: 19px;
+}
+
+.row+.row {
+  margin-top: 10px;
+}
+
+.danger {
+  text-align: center;
+  background: #e53935;
+  color: #fff;
+  font-weight: 600;
+}
+
+.warning {
+  text-align: center;
+  background: #ff8f00;
+  color: #fff;
+  font-weight: 600;
+}
+
+.default {
+  text-align: center;
+  font-weight: 600;
+}
+
+.success {
+  background: #4caf50;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 600;
+}
+
+.danger, .warning, .default, .success {
+  margin-bottom: 20px;
+}

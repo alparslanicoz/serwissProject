@@ -1,0 +1,14 @@
+.modal-header {
+  background: #25628f;
+}
+
+.modal-header h5 {
+  color: #fff;
+}
+
+@media (min-width: 992px)
+{
+  .modal-lg {
+    max-width: 1200px;
+  }
+}

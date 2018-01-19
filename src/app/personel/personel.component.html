@@ -1,0 +1,373 @@
+<div class="ks-page-content">
+  <div class="ks-page-content-body ks-tickets-page" data-ticket-manage>
+    <div class="ks-tickets">
+      <div class="ks-controls">
+        <div class="input-icon icon-right icon icon-lg">
+          <input id="input-group-icon-text" type="text" class="form-control" placeholder="Personel ara...">
+          <span class="icon-addon">
+                <span class="la la-search"></span>
+            </span>
+        </div>
+        <div class="ks-actions">
+          <button class="btn btn-primary-outline ks-light ks-no-text ks-ticket-manage" title="Yeni Kullanıcı Oluştur"><span class="la la-plus ks-icon"></span></button>
+        </div>
+      </div>
+      <div class="ks-body ks-scrollable" data-auto-height>
+        <ul>
+          <li class="ks-ticket">
+            <a href="#">
+                    <span class="ks-avatar">
+                        <img src="assets/img/avatars/ava-2.png" width="36" height="36">
+                    </span>
+              <div class="ks-body">
+                <div class="ks-name">
+                  Alpaslan Oğuz İÇÖZ
+                </div>
+                <div class="ks-message">Yazılım Departmanı</div>
+                <span class="ks-ticket-status badge badge-danger">Yazılım</span>
+              </div>
+            </a>
+          </li>
+          <li class="ks-ticket">
+            <a href="#">
+                    <span class="ks-avatar">
+                        <img src="assets/img/avatars/ava-2.png" width="36" height="36">
+                    </span>
+              <div class="ks-body">
+                <div class="ks-name">
+                  Ümit YILMAZ
+                </div>
+                <div class="ks-message">Yöneteam</div>
+                <span class="ks-ticket-status badge badge-warning">YÖNETİM</span>
+              </div>
+            </a>
+          </li>
+          <li class="ks-ticket">
+            <a href="#">
+                    <span class="ks-avatar">
+                        <img src="assets/img/avatars/ava-2.png" width="36" height="36">
+                    </span>
+              <div class="ks-body">
+                <div class="ks-name">
+                  Fikret TURAN
+                </div>
+                <div class="ks-message">Yöneteam</div>
+                <span class="ks-ticket-status badge badge-warning">YÖNETİM</span>
+              </div>
+            </a>
+          </li>
+          <li class="ks-ticket ks-closed">
+            <a href="#">
+                    <span class="ks-avatar">
+                        <img src="assets/img/avatars/ava-4.png" width="36" height="36">
+                    </span>
+              <div class="ks-body">
+                <div class="ks-name">
+                  Alpaslan Oğuz İÇÖZ
+                </div>
+                <div class="ks-message">Yazılım Departmanı</div>
+                <span class="ks-ticket-status badge badge-default">AYRILDI</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="ks-view ks-manage">
+      <div class="ks-header">
+        <span>Personel Oluştur</span>
+      </div>
+      <div class="ks-body ks-scrollable" data-auto-height>
+        <form>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="name">Personel Adı</label>
+                <input type="text" class="form-control" id="name" placeholder="İsim">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="surname">Personel Soyadı</label>
+                <input type="text" class="form-control" id="surname" placeholder="Soyisim">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label for="username">Kullanıcı Adı</label>
+                <input type="text" class="form-control" id="username" placeholder="Kullanıcı Adı">
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label for="password">Şifre</label>
+                <input type="password" class="form-control" id="password" placeholder="Şifre">
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label for="password2">Şifre Tekrar</label>
+                <input type="password" class="form-control" id="password2" placeholder="Şifre Tekrar">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="sube">Şube Adı</label>
+                <input type="text" class="form-control" id="sube" placeholder="Şube Adı">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="sube">Birim</label>
+                <select class="selectpicker form-control images">
+                  <option data-id="1">Notebook Servis</option>
+                  <option data-id="2">PC Bakım Onarım</option>
+                  <option data-id="3">Dış Servis</option>
+                  <option data-id="4">Toner</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card panel panel-primary block-default">
+                <h5 class="card-header">
+                  Arızalı Cihaz Yönetimi
+                </h5>
+                <div class="card-block">
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input" checked="">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Arızalı Cihaz Görüntüle</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Arızalı Cihaz Ekle</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Arızalı Cihaz Sil</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card panel panel-primary block-default">
+                <h5 class="card-header">
+                  Muhasebe Yönetimi
+                </h5>
+                <div class="card-block">
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input" checked="">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Gelir/Gider Görüntüle</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Gider Ekle</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Gider Sil</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card panel panel-primary block-default">
+                <h5 class="card-header">
+                  Personel Yönetimi
+                </h5>
+                <div class="card-block">
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input" checked="">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Personel Görüntüle</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Personel Ekle</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Personel Düzenle</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card panel panel-primary block-default">
+                <h5 class="card-header">
+                  Müşteri Yönetimi
+                </h5>
+                <div class="card-block">
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input" checked="">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Müşteri Görüntüle</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Müşteri Ekle</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Müşteri Düzenle</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card panel panel-primary block-default">
+                <h5 class="card-header">
+                  Ürün Yönetimi
+                </h5>
+                <div class="card-block">
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input" checked="">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Ürün Görüntüle</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Ürün Ekle</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Ürün Düzenle</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card panel panel-primary block-default">
+                <h5 class="card-header">
+                  Diğer Yetkiler
+                </h5>
+                <div class="card-block">
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input" checked="">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Rapor Görüntüle</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Firma Bilgileri Düzenle</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Logları Görüntüle</span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="custom-control custom-checkbox ks-checkbox ks-checkbox-success">
+                      <input type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Tüm Yetkileri Ver</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="ks-actions">
+              <button type="button" class="btn btn-success">Personeli Oluştur</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="application/javascript">
+  (function ($) {
+    $(document).ready(function() {
+      $('select').select2({
+        minimumResultsForSearch: Infinity
+      });
+    });
+  })(jQuery);
+</script>
+<script type="application/javascript">
+  (function ($) {
+    $(document).ready(function () {
+      var ksViews = $('.ks-tickets-page > .ks-view');
+      var ksTicketView = $('.ks-tickets-page[data-ticket-view] > .ks-view');
+      var ksManageView = $('.ks-tickets-page[data-ticket-manage] > .ks-view');
+
+      if (Response.band(0, 780)) {
+        var ksTickets = $('.ks-tickets-page[data-ticket-view] > .ks-tickets > .ks-body .ks-ticket');
+        var ksTicketManage = $('.ks-tickets-page[data-ticket-manage] > .ks-tickets > .ks-controls .ks-ticket-manage');
+        var ksViewCancel = $('.ks-tickets-page > .ks-view .ks-view-cancel');
+
+        ksTickets.on('click', function () {
+          ksTicketView.addClass('ks-open');
+        });
+
+        ksTicketManage.on('click', function () {
+          ksManageView.addClass('ks-open');
+        });
+
+        ksViewCancel.on('click', function() {
+          ksViews.removeClass('ks-open');
+        });
+      }
+    });
+  })(jQuery);
+</script>

@@ -1,0 +1,158 @@
+<app-crm-navigation></app-crm-navigation>
+
+<div class="col-md-7">
+  <div class="card text-center">
+    <div class="card-header">
+      Stok Kalemleri
+    </div>
+    <div class="card-block">
+      <table class="table text-light">
+        <thead class="thead-default">
+        <tr>
+          <th>Ürün</th>
+          <th>Miktar</th>
+          <th>Birim</th>
+          <th>Fiyat</th>
+          <th>KDV (%)</th>
+          <th>Tutar (KDV Hariç)</th>
+          <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>
+            <input type="text" class="form-control" id="product" placeholder="">
+          </td>
+          <td>
+            <input type="text" class="form-control" id="sum" placeholder="">
+          </td>
+          <td>
+            <input type="text" class="form-control" id="unit" placeholder="">
+          </td>
+          <td>
+            <select class="form-control">
+              <option>TL</option>
+              <option>USD</option>
+              <option>EURO</option>
+            </select>
+          </td>
+          <td>
+            <input type="text" class="form-control" id="kdv" placeholder="">
+          </td>
+          <td>
+            <input type="text" class="form-control" id="amount" placeholder="">
+          </td>
+          <td>
+            <button class="btn btn-success ks-rounded">
+              <span class="la la-plus-circle"></span>
+            </button>
+          </td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+          <td colspan="5" class="textAlign-right">Toplam:</td>
+          <td class="form-control"> 0,00 TL </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="5" class="textAlign-right">İndirim:</td>
+          <td>
+            <input type="text" class="form-control" placeholder="" style="width: 50%;float: left;">
+            <select class="form-control" style="width: 50%;float:left;">
+              <option>%</option>
+              <option>TL</option>
+              <option>USD</option>
+              <option>EURO</option>
+            </select>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="5" class="textAlign-right">İndirimli Toplam:</td>
+          <td class="form-control"> 0,00 TL </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="5" class="textAlign-right">KDV:</td>
+          <td class="form-control"> 0,00 TL </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="5" class="textAlign-right">Genel Toplam:</td>
+          <td class="form-control"> 0,00 TL </td>
+          <td></td>
+        </tr>
+        </tfoot>
+      </table>    </div>
+  </div>
+</div>
+<div class="col-md-3">
+  <div class="card text-center">
+    <div class="card-header">
+      Müşteri Bilgileri
+    </div>
+    <div class="card-block">
+      <form>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="input-group icon icon-lg icon-color-primary">
+                      <span class="input-group-addon">
+                          <span class="la la-user"></span>
+                      </span>
+                <input type="text" class="form-control" placeholder="Müşteri">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="input-group icon icon-lg icon-color-primary">
+                      <span class="input-group-addon">
+                          <span class="la la-archive"></span>
+                      </span>
+                <input type="text" class="form-control" placeholder="İlgili Kişi">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="input-group icon icon-lg icon-color-primary">
+                      <span class="input-group-addon">
+                          <span class="la la-barcode"></span>
+                      </span>
+                <input type="text" class="form-control" placeholder="İlgili Satış">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="input-group icon icon-lg icon-color-primary">
+                      <span class="input-group-addon">
+                          <span class="la la-try"></span>
+                      </span>
+                <input type="text" class="form-control" placeholder="Teklif Konusu">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="input-group icon icon-lg icon-color-primary">
+                      <span class="input-group-addon">
+                          <span class="la la-try"></span>
+                      </span>
+                <textarea class="form-control" placeholder="Açıklama Metini"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <button class="btn btn-success-outline ks-solid kd-rounded" style="width:100%;">Kaydet ve Göster</button>
+            </div>
+            <div class="col-sm-6">
+              <button class="btn btn-warning-outline ks-solid kd-rounded" style="width:100%;">Kaydet</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
